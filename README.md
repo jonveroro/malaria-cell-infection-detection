@@ -11,16 +11,16 @@ Detection of Malaria Infected cell images using different machine learning techn
 
 ## Usage
 * Download image data on Kaggle Link Below - Extract data a on ```data/cell-images/Parasitized``` and ```data/cell-images/Uninfected```
-* Creating a dataset:
+* Create a dataset:
     ```python dataset_creator -l 10000```
     ```-l``` - size of the dataset to be created
-* Training a model
+* Train a model
     ```python model.py -m lgbm```
     ```-m``` - type of training method to be used
      ```lgbm``` - Light Gradient Boosting
      ```xgbm``` - Xtreme Gradient Boosting
      ```cnn``` - Convolutional Neural Network
-* Evaluation of models
+* Evaluate your models
   ```python prediction.py -l 100```
   ```-l``` - number of samples to be evaluated.
 
