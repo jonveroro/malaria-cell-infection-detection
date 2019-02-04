@@ -88,6 +88,7 @@ Detection of Malaria Infected cell images using different machine learning techn
 
 ## Improvements
   * Apply 2D CNN
+  * Test on more ML Algorithms
   * Improve Hyperparameters on all models
   
 ## Built With
