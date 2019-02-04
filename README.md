@@ -10,6 +10,7 @@ Detection of Malaria Infected cell images using different machine learning techn
 * XGBoost
 
 ## Usage
+* Download image data on Kaggle Link Below - Extract data a on ```data/cell-images/Parasitized``` and ```data/cell-images/Uninfected```
 * Creating a dataset:
     ```python dataset_creator -l 10000```
     ```-l``` - size of the dataset to be created
